@@ -1,0 +1,65 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "customer_email": "john.doe@example.com",
+    "status": "delivered",
+    "items": [
+      {
+        "name": "Wireless Headphones",
+        "return_eligible": true
+      },
+      {
+        "name": "USB-C Cable",
+        "return_eligible": false
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1002",
+    "customer_email": "jane.smith@example.com",
+    "status": "shipped",
+    "items": [
+      {
+        "name": "Smart Watch",
+        "return_eligible": true
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1003",
+    "customer_email": "alex.wong@example.com",
+    "status": "processing",
+    "items": [
+      {
+        "name": "Bluetooth Speaker",
+        "return_eligible": true
+      },
+      {
+        "name": "Phone Case",
+        "return_eligible": true
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1004",
+    "customer_email": "sarah.johnson@example.com",
+    "status": "cancelled",
+    "items": [
+      {
+        "name": "Laptop Bag",
+        "return_eligible": false
+      }
+    ]
+  },
+  {
+    "order_id": "ORD-1005",
+    "customer_email": "mike.brown@example.com",
+    "status": "returned",
+    "items": [
+      {
+        "name": "Wireless Mouse",
+        "return_eligible": true
+      }
+    ]
+  }
+]
